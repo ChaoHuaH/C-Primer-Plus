@@ -1,0 +1,25 @@
+/* callFunc.c
+call two function which print a string
+*/
+#include <stdio.h>
+
+void jolly(void);
+void deny(void);
+
+int main(void)
+{
+    jolly();
+    jolly();
+    jolly();
+    deny();
+}
+
+void jolly(void)
+{
+    printf("For he's a jolly good fellow!\n");
+}
+
+void deny(void)
+{
+    printf("Which nobody can deny!\n");
+}
